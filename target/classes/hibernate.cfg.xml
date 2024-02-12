@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+<session-factory>
+<property name="connection.driver_class">
+org.postgresql.Driver
+
+</property>
+<property name="connection.url">jdbc:postgresql://localhost:5433/myhiber2</property>
+<property name="connection.username">postgres</property>
+<property name="connection.password">dinakar1.</property>
+<!-- <property name="dialect">org.hibernate.dialect.postgreSQL.Dialect</property> -->
+<property name="hbm2ddl.auto">update</property>
+<property name="show_sql">true</property>
+<property name="format_sql">true</property>
+<!-- <mapping class="youtubetutorials.Student"></mapping> -->
+<!-- <mapping class="youtubetutorials.Artist"></mapping>
+<mapping class="youtubetutorials.Address"></mapping> -->
+<!-- <mapping class="secondarytable.Student"></mapping> -->
+<mapping class="secondarytable.StudPass"></mapping>
+<mapping class="secondarytable.Center"></mapping>
+<!-- <mapping class="shaksat.PassDetails"></mapping> -->
+<!-- <mapping class="youtubetutorials.HQL.Avengers"></mapping> -->
+<!-- <mapping class="youtubetutorials.HQL.Avengers2"></mapping>
+<mapping class="youtubetutorials.layer.Employee"></mapping>
+<mapping class="youtubetutorials.Inheritance.Vehicle"></mapping>
+<mapping class="youtubetutorials.Inheritance.Twowheeler"></mapping>
+ 
+<mapping class="youtubetutorials.Inheritance.FourWheeler"></mapping>
+<mapping class="youtubetutorials.NativeSQL.Person"></mapping>
+<mapping class="youtubetutorials.NativeSQL.Person1"></mapping>
+<mapping class="youtubetutorials.NativeSQL.Person2"></mapping>
+<mapping class="youtubetutorials.OptimisticLocking.Person3"></mapping>
+<mapping class="youtubetutorials.Auditing.Customer"></mapping>
+<mapping class="youtubetutorials.NativeSQL.book"></mapping>
+<mapping class="youtubetutorials.NativeSQL.Phone"></mapping>
+<mapping class="youtubetutorials.NativeSQL.Call"></mapping>
+<mapping class="youtubetutorials.NativeSQL.Partner"></mapping>
+<mapping class="youtubetutorials.NativeSQL.Employee2"></mapping>
+<mapping class="youtubetutorials.NativeSQL.Department"></mapping> -->
+<!-- <mapping class="demo.Address"></mapping> -->
+
+</session-factory>
+</hibernate-configuration>

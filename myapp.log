@@ -1,0 +1,546 @@
+2024-Jan-03 11:16:07 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6aef4eb8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@76c52298)
+2024-Jan-03 11:16:07 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@bb9ab64) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@a52ca2e)
+2024-Jan-03 11:16:10 AM [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Employee_SEQ')
+2024-Jan-03 11:16:10 AM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Employee
+        (Empname, salary, empid) 
+    values
+        (?, ?, ?)
+2024-Jan-03 11:16:28 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@76c52298) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@bb9ab64)
+2024-Jan-03 11:16:28 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@a52ca2e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1ad8df52)
+2024-Jan-03 11:16:31 AM [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Employee_SEQ')
+2024-Jan-03 11:16:32 AM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Employee
+        (Empname, salary, empid) 
+    values
+        (?, ?, ?)
+2024-Jan-03 11:20:36 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@79b08632) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@787f32b7)
+2024-Jan-03 11:20:36 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6aef4eb8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@76c52298)
+2024-Jan-03 11:20:39 AM [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Employee_SEQ')
+2024-Jan-03 11:20:39 AM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Employee
+        (Empname, salary, empid) 
+    values
+        (?, ?, ?)
+2024-Jan-03 11:39:17 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@17b64941) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@53ac845a)
+2024-Jan-03 11:39:17 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5136207f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@26a4551a)
+2024-Jan-03 11:39:54 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@2764c546) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@59496961)
+2024-Jan-03 11:39:54 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@408b87aa) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@79b08632)
+2024-Jan-03 11:39:56 AM [main] DEBUG org.hibernate.SQL - 
+    create table person3 (
+        id bigserial not null,
+        accress_level integer,
+        password varchar(255) not null,
+        person_name varchar(60),
+        user_name varchar(60) not null,
+        version bigint,
+        primary key (id)
+    )
+2024-Jan-03 11:39:56 AM [main] DEBUG org.hibernate.SQL - 
+    alter table if exists person3 
+       drop constraint if exists UK_je83ygci6s4wu5qc4ar5rnx3y
+2024-Jan-03 11:39:56 AM [main] DEBUG org.hibernate.SQL - 
+    alter table if exists person3 
+       add constraint UK_je83ygci6s4wu5qc4ar5rnx3y unique (user_name)
+2024-Jan-03 11:39:57 AM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        person3
+        (accress_level, password, person_name, user_name, version) 
+    values
+        (?, ?, ?, ?, ?)
+2024-Jan-03 11:40:53 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@290aeb20) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@73ad4ecc)
+2024-Jan-03 11:40:53 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@69da0b12) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2764c546)
+2024-Jan-03 11:40:56 AM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        person3
+        (accress_level, password, person_name, user_name, version) 
+    values
+        (?, ?, ?, ?, ?)
+2024-Jan-03 11:41:31 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@290aeb20) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@73ad4ecc)
+2024-Jan-03 11:41:31 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@69da0b12) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2764c546)
+2024-Jan-03 11:41:34 AM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        person3
+        (accress_level, password, person_name, user_name, version) 
+    values
+        (?, ?, ?, ?, ?)
+2024-Jan-03 11:41:51 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6aef4eb8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@76c52298)
+2024-Jan-03 11:41:51 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@bb9ab64) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@a52ca2e)
+2024-Jan-03 11:41:55 AM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        person3
+        (accress_level, password, person_name, user_name, version) 
+    values
+        (?, ?, ?, ?, ?)
+2024-Jan-03 11:43:20 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5411dd90) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@50194e8d)
+2024-Jan-03 11:43:20 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3cee53dc) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@290aeb20)
+2024-Jan-03 11:43:23 AM [main] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.accress_level,
+        p1_0.password,
+        p1_0.person_name,
+        p1_0.user_name,
+        p1_0.version 
+    from
+        person3 p1_0 
+    where
+        p1_0.id=?
+2024-Jan-03 11:43:23 AM [main] DEBUG org.hibernate.SQL - 
+    update
+        person3 
+    set
+        password=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+2024-Jan-03 11:45:50 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@76c52298) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@bb9ab64)
+2024-Jan-03 11:45:50 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@a52ca2e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1ad8df52)
+2024-Jan-03 11:45:54 AM [Thread-2] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.accress_level,
+        p1_0.password,
+        p1_0.person_name,
+        p1_0.user_name,
+        p1_0.version 
+    from
+        person3 p1_0 
+    where
+        p1_0.id=?
+2024-Jan-03 11:45:54 AM [Thread-1] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.accress_level,
+        p1_0.password,
+        p1_0.person_name,
+        p1_0.user_name,
+        p1_0.version 
+    from
+        person3 p1_0 
+    where
+        p1_0.id=?
+2024-Jan-03 11:45:54 AM [Thread-2] DEBUG org.hibernate.SQL - 
+    update
+        person3 
+    set
+        password=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+2024-Jan-03 11:45:59 AM [Thread-1] DEBUG org.hibernate.SQL - 
+    update
+        person3 
+    set
+        password=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+2024-Jan-03 12:05:21 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3fdecce) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@344426bf)
+2024-Jan-03 12:05:21 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5411dd90) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@50194e8d)
+2024-Jan-03 12:05:24 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        person3
+        (accress_level, password, person_name, user_name, version) 
+    values
+        (?, ?, ?, ?, ?)
+2024-Jan-03 12:05:24 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.accress_level,
+        p1_0.password,
+        p1_0.person_name,
+        p1_0.user_name,
+        p1_0.version 
+    from
+        person3 p1_0 
+    where
+        p1_0.id=?
+2024-Jan-03 12:05:24 PM [main] DEBUG org.hibernate.SQL - 
+    update
+        person3 
+    set
+        accress_level=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+2024-Jan-03 12:05:24 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.accress_level,
+        p1_0.password,
+        p1_0.person_name,
+        p1_0.user_name,
+        p1_0.version 
+    from
+        person3 p1_0 
+    where
+        p1_0.id=?
+2024-Jan-03 12:06:37 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@408b87aa) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@79b08632)
+2024-Jan-03 12:06:37 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@787f32b7) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6aef4eb8)
+2024-Jan-03 12:13:48 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@76c52298) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@bb9ab64)
+2024-Jan-03 12:13:48 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@a52ca2e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1ad8df52)
+2024-Jan-03 12:13:50 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.accress_level,
+        p1_0.password,
+        p1_0.person_name,
+        p1_0.user_name,
+        p1_0.version 
+    from
+        person3 p1_0 
+    where
+        p1_0.id=?
+2024-Jan-03 12:13:51 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.accress_level,
+        p1_0.password,
+        p1_0.person_name,
+        p1_0.user_name,
+        p1_0.version 
+    from
+        person3 p1_0 
+    where
+        p1_0.id=?
+2024-Jan-03 12:16:03 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@79b08632) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@787f32b7)
+2024-Jan-03 12:16:03 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6aef4eb8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@76c52298)
+2024-Jan-03 12:16:06 PM [main] INFO  youtubetutorials.EventListener.Engine - Person Record is saved successfully
+2024-Jan-03 12:16:06 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.accress_level,
+        p1_0.password,
+        p1_0.person_name,
+        p1_0.user_name,
+        p1_0.version 
+    from
+        person3 p1_0 
+    where
+        p1_0.id=?
+2024-Jan-03 12:16:06 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.accress_level,
+        p1_0.password,
+        p1_0.person_name,
+        p1_0.user_name,
+        p1_0.version 
+    from
+        person3 p1_0 
+    where
+        p1_0.id=?
+2024-Jan-03 12:18:38 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@408b87aa) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@79b08632)
+2024-Jan-03 12:18:38 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@787f32b7) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6aef4eb8)
+2024-Jan-03 12:18:41 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Employee_SEQ')
+2024-Jan-03 12:18:41 PM [main] INFO  youtubetutorials.interceptor.InterceptorEngine - onSave method is called...
+2024-Jan-03 12:18:41 PM [main] INFO  youtubetutorials.interceptor.InterceptorEngine - Employee [empid=552, Empname=robot, salary=90000.0]
+2024-Jan-03 12:18:41 PM [main] INFO  youtubetutorials.interceptor.InterceptorEngine - Person Record is saved successfully
+2024-Jan-03 12:18:41 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Employee
+        (Empname, salary, empid) 
+    values
+        (?, ?, ?)
+2024-Jan-03 12:18:41 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        e1_0.empid,
+        e1_0.Empname,
+        e1_0.salary 
+    from
+        Employee e1_0 
+    where
+        e1_0.empid=?
+2024-Jan-03 12:18:41 PM [main] INFO  youtubetutorials.interceptor.InterceptorEngine - onLoad method is called...
+2024-Jan-03 12:18:41 PM [main] INFO  youtubetutorials.interceptor.InterceptorEngine - Employee [empid=1, Empname=null, salary=0.0]
+2024-Jan-03 12:38:16 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@692fd26) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@36f1046f)
+2024-Jan-03 12:38:16 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@56d93692) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1686f0b4)
+2024-Jan-03 12:38:18 PM [main] DEBUG org.hibernate.SQL - 
+    create table customer (
+        id bigserial not null,
+        created_on timestamp(6),
+        first_name varchar(100) not null,
+        last_name varchar(100) not null,
+        primary key (id)
+    )
+2024-Jan-03 12:38:18 PM [main] DEBUG org.hibernate.SQL - 
+    create table customer_AUD (
+        id bigint not null,
+        REV integer not null,
+        REVTYPE smallint,
+        created_on timestamp(6),
+        first_name varchar(100),
+        last_name varchar(100),
+        primary key (REV, id)
+    )
+2024-Jan-03 12:38:18 PM [main] DEBUG org.hibernate.SQL - 
+    create table REVINFO (
+        REV integer not null,
+        REVTSTMP bigint,
+        primary key (REV)
+    )
+2024-Jan-03 12:38:18 PM [main] DEBUG org.hibernate.SQL - 
+    create sequence REVINFO_SEQ start with 1 increment by 50
+2024-Jan-03 12:38:18 PM [main] DEBUG org.hibernate.SQL - 
+    alter table if exists customer_AUD 
+       add constraint FK3bqyogu5eqso9yqni4l7cssod 
+       foreign key (REV) 
+       references REVINFO
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        customer
+        (created_on, first_name, last_name) 
+    values
+        (?, ?, ?)
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        customer
+        (created_on, first_name, last_name) 
+    values
+        (?, ?, ?)
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('REVINFO_SEQ')
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        REVINFO
+        (REVTSTMP, REV) 
+    values
+        (?, ?)
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        customer_AUD
+        (REVTYPE, created_on, first_name, last_name, REV, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        customer_AUD
+        (REVTYPE, created_on, first_name, last_name, REV, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.created_on,
+        c1_0.first_name,
+        c1_0.last_name 
+    from
+        customer c1_0 
+    where
+        c1_0.id=?
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    update
+        customer 
+    set
+        created_on=?,
+        first_name=?,
+        last_name=? 
+    where
+        id=?
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('REVINFO_SEQ')
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        REVINFO
+        (REVTSTMP, REV) 
+    values
+        (?, ?)
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        customer_AUD
+        (REVTYPE, created_on, first_name, last_name, REV, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        c1_0.id,
+        c1_0.created_on,
+        c1_0.first_name,
+        c1_0.last_name 
+    from
+        customer c1_0 
+    where
+        c1_0.id=?
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    delete 
+    from
+        customer 
+    where
+        id=?
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        REVINFO
+        (REVTSTMP, REV) 
+    values
+        (?, ?)
+2024-Jan-03 12:38:19 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        customer_AUD
+        (REVTYPE, created_on, first_name, last_name, REV, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-Jan-03 12:51:05 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@10ee04df) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7186333e)
+2024-Jan-03 12:51:05 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@692fd26) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@36f1046f)
+2024-Jan-03 12:54:36 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3900fa71) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@26722665)
+2024-Jan-03 12:54:36 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7d0614f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@627d8516)
+2024-Jan-04 16:48:15 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@4e31c3ec) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3157e4c0)
+2024-Jan-04 16:48:15 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6eaa21d8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@328902d5)
+2024-Jan-04 16:48:18 PM [main] ERROR youtubetutorials.EventListener.Engine - Failed to save Person Records:org.hibernate.exception.ConstraintViolationException: could not execute statement [ERROR: duplicate key value violates unique constraint "uk_je83ygci6s4wu5qc4ar5rnx3y"
+  Detail: Key (user_name)=(skons) already exists.] [insert into person3 (accress_level,password,person_name,user_name,version) values (?,?,?,?,?)]
+2024-Jan-04 16:49:02 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@43034809) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@39e67516)
+2024-Jan-04 16:49:02 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@77010a30) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4bb003e9)
+2024-Jan-04 16:50:11 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7d0614f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@627d8516)
+2024-Jan-04 16:50:11 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5c10285a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6b667cb3)
+2024-Jan-04 16:50:13 PM [main] ERROR youtubetutorials.EventListener.Engine - Failed to save Person Records:org.hibernate.exception.ConstraintViolationException: could not execute statement [ERROR: duplicate key value violates unique constraint "uk_je83ygci6s4wu5qc4ar5rnx3y"
+  Detail: Key (user_name)=(skons) already exists.] [insert into person3 (accress_level,password,person_name,user_name,version) values (?,?,?,?,?)]
+2024-Jan-04 16:50:26 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7c1812b3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@43034809)
+2024-Jan-04 16:50:26 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@39e67516) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@77010a30)
+2024-Jan-04 16:51:37 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@77010a30) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@4bb003e9)
+2024-Jan-04 16:51:37 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@12aa4996) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@18eec010)
+2024-Jan-04 16:51:40 PM [main] INFO  youtubetutorials.EventListener.Engine - Person Record is saved successfully
+2024-Jan-04 17:28:56 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1686f0b4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@76c548f)
+2024-Jan-04 17:28:56 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3900fa71) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@26722665)
+2024-Jan-04 17:29:51 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6b667cb3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6f38a289)
+2024-Jan-04 17:29:51 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@61e3cf4d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3cec79d3)
+2024-Jan-06 16:50:25 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@692fd26) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@36f1046f)
+2024-Jan-06 16:50:25 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@56d93692) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1686f0b4)
+2024-Jan-06 16:50:53 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3157e4c0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6eaa21d8)
+2024-Jan-06 16:50:53 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@328902d5) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@72e789cb)
+2024-Jan-06 17:20:46 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@38eb2c50) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@8bffb8b)
+2024-Jan-06 17:20:46 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@21422231) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@10ee04df)
+2024-Jan-06 17:21:34 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7186333e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@692fd26)
+2024-Jan-06 17:21:34 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@36f1046f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@56d93692)
+2024-Jan-06 17:23:39 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3e17a0a1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@790a251b)
+2024-Jan-06 17:23:39 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4d8286c4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@150ede8b)
+2024-Jan-06 17:29:47 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7139bd31) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@199bc830)
+2024-Jan-06 17:29:47 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4b3fe06e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@27b45ea)
+2024-Jan-07 09:05:48 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@81b5db0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7487b142)
+2024-Jan-07 09:05:48 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7139bd31) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@199bc830)
+2024-Jan-07 09:07:38 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@77eb5790) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@68e7c8c3)
+2024-Jan-07 09:07:38 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@319c3a25) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@238bfd6c)
+2024-Jan-07 09:07:53 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@4d8286c4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@150ede8b)
+2024-Jan-07 09:07:53 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@161f6623) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3e15bb06)
+2024-Jan-07 09:11:19 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@4d8286c4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@150ede8b)
+2024-Jan-07 09:11:19 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@161f6623) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3e15bb06)
+2024-Jan-07 20:14:32 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3e15bb06) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6778aea6)
+2024-Jan-07 20:14:32 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4e1ce44) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@69228e85)
+2024-Jan-07 20:16:44 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@72456279) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@53a9fcfd)
+2024-Jan-07 20:16:44 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@21f459fc) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4d192aef)
+2024-Jan-07 20:22:30 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@27b45ea) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3e17a0a1)
+2024-Jan-07 20:22:30 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@790a251b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4d8286c4)
+2024-Jan-07 20:24:28 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6778aea6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@4e1ce44)
+2024-Jan-07 20:24:28 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@69228e85) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7a7cc52c)
+2024-Jan-07 20:29:01 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@627d8516) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5c10285a)
+2024-Jan-07 20:29:01 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6b667cb3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6f38a289)
+2024-Jan-07 20:31:44 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@64b70919) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@4e31c3ec)
+2024-Jan-07 20:31:44 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3157e4c0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6eaa21d8)
+2024-Jan-07 20:36:21 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@56d93692) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1686f0b4)
+2024-Jan-07 20:36:21 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@76c548f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3900fa71)
+2024-Jan-07 20:37:31 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@26a2f7f9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@38eb2c50)
+2024-Jan-07 20:37:31 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@8bffb8b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@21422231)
+2024-Jan-07 21:53:19 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@692fd26) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@36f1046f)
+2024-Jan-07 21:53:19 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@56d93692) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1686f0b4)
+2024-Jan-07 21:58:25 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6f38a289) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@61e3cf4d)
+2024-Jan-07 21:58:25 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3cec79d3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@64b70919)
+2024-Jan-07 22:06:51 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3900fa71) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@26722665)
+2024-Jan-07 22:06:51 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7d0614f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@627d8516)
+2024-Jan-07 22:07:37 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@56d93692) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1686f0b4)
+2024-Jan-07 22:07:37 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@76c548f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3900fa71)
+2024-Jan-07 22:10:37 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1686f0b4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@76c548f)
+2024-Jan-07 22:10:37 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3900fa71) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@26722665)
+2024-Jan-07 22:12:02 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3900fa71) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@26722665)
+2024-Jan-07 22:12:02 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7d0614f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@627d8516)
+2024-Jan-07 22:25:27 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3900fa71) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@26722665)
+2024-Jan-07 22:25:28 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7d0614f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@627d8516)
+2024-Jan-07 22:26:54 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@56d93692) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1686f0b4)
+2024-Jan-07 22:26:54 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@76c548f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3900fa71)
+2024-Jan-07 22:27:33 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@dc7b462) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1f51431)
+2024-Jan-07 22:27:33 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@26a2f7f9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@38eb2c50)
+2024-Jan-07 22:30:40 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1686f0b4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@76c548f)
+2024-Jan-07 22:30:40 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3900fa71) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@26722665)
+2024-Jan-07 22:32:28 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3900fa71) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@26722665)
+2024-Jan-07 22:32:28 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7d0614f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@627d8516)
+2024-Jan-07 22:36:33 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@25c53f74) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5e2f3be5)
+2024-Jan-07 22:36:33 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1bd0b0e5) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@dc7b462)
+2024-Jan-07 22:37:01 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@627d8516) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5c10285a)
+2024-Jan-07 22:37:01 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6b667cb3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6f38a289)
+2024-Jan-07 22:41:52 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7186333e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@692fd26)
+2024-Jan-07 22:41:52 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@36f1046f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@56d93692)
+2024-Jan-07 22:46:59 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@56d93692) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1686f0b4)
+2024-Jan-07 22:46:59 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@76c548f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3900fa71)
+2024-Jan-07 22:48:08 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7d0614f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@627d8516)
+2024-Jan-07 22:48:08 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5c10285a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6b667cb3)
+2024-Jan-07 22:49:30 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7186333e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@692fd26)
+2024-Jan-07 22:49:30 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@36f1046f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@56d93692)
+2024-Jan-07 22:50:12 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@692fd26) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@36f1046f)
+2024-Jan-07 22:50:12 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@56d93692) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1686f0b4)
+2024-Jan-07 22:51:13 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@2c8662ac) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@260ff5b7)
+2024-Jan-07 22:51:13 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3724b43e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@77eb5790)
+2024-Jan-07 22:55:00 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7139bd31) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@199bc830)
+2024-Jan-07 22:55:00 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4b3fe06e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@27b45ea)
+2024-Jan-08 10:18:27 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@260ff5b7) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3724b43e)
+2024-Jan-08 10:18:27 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@77eb5790) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@68e7c8c3)
+2024-Jan-08 10:19:49 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@27b45ea) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3e17a0a1)
+2024-Jan-08 10:19:49 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@790a251b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4d8286c4)
+2024-Jan-08 10:22:09 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3e17a0a1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@790a251b)
+2024-Jan-08 10:22:09 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4d8286c4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@150ede8b)
+2024-Jan-08 10:27:46 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6f38a289) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@61e3cf4d)
+2024-Jan-08 10:27:46 AM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3cec79d3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@64b70919)
+2024-Jan-08 22:30:53 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5853495b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@524a2ffb)
+2024-Jan-08 22:30:53 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2f61d591) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@332820f4)
+2024-Jan-08 22:34:21 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5853495b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@524a2ffb)
+2024-Jan-08 22:34:21 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2f61d591) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@332820f4)
+2024-Jan-08 22:35:52 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@27b45ea) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3e17a0a1)
+2024-Jan-08 22:35:52 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@790a251b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4d8286c4)
+2024-Jan-08 22:36:43 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@2c8662ac) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@260ff5b7)
+2024-Jan-08 22:36:43 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3724b43e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@77eb5790)
+2024-Jan-08 22:37:35 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3e17a0a1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@790a251b)
+2024-Jan-08 22:37:35 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4d8286c4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@150ede8b)
+2024-Jan-08 22:37:56 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3e17a0a1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@790a251b)
+2024-Jan-08 22:37:56 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4d8286c4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@150ede8b)
+2024-Jan-08 22:39:02 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@260ff5b7) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3724b43e)
+2024-Jan-08 22:39:02 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@77eb5790) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@68e7c8c3)
+2024-Jan-08 22:44:55 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@627d8516) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5c10285a)
+2024-Jan-08 22:44:55 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6b667cb3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6f38a289)
+2024-Jan-08 22:46:05 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@26722665) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7d0614f)
+2024-Jan-08 22:46:05 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@627d8516) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5c10285a)
+2024-Jan-08 22:50:24 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@692fd26) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@36f1046f)
+2024-Jan-08 22:50:24 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@56d93692) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1686f0b4)
+2024-Jan-08 22:51:44 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6b667cb3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6f38a289)
+2024-Jan-08 22:51:44 PM [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@61e3cf4d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3cec79d3)
